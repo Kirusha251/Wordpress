@@ -18,6 +18,7 @@
 <div class="postmeta">
 		<span class="author">Автор <?php the_author(); ?> </span>
 		<span class="clock"> <?php the_time('M - j - Y'); ?></span>
+		<span class="comm"><?php comments_popup_link('Нет комментариев', '1 комментарий', 'Комментариев: %'); ?></span>
 </div>
 
 <div class="entry">
@@ -28,7 +29,9 @@
 </div>
 
 
-
+<div class="singleinfo">
+<span class="category">Рубрики: <?php the_category(', '); ?> </span>
+</div>
 
 </div>
 

@@ -1,5 +1,5 @@
 <div class="squarebanner ">
-	<h3 class="sidetitl "> Спонсоры </h3>
+	<h3 class="sidetitl "> Наши партнеры </h3>
 <ul>
 
 
