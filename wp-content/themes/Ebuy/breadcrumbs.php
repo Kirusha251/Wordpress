@@ -15,13 +15,13 @@
 		
 		elseif ( is_date() )
 		{
-			 echo "<li> / Товапы</li>";
+			 echo "<li> / Archives</li>";
 			 echo "<li> / ".the_time('F jS, Y')." </li>";
 			
 		}
         elseif ( is_archive() && !is_category() )
         {
-            echo "<li> / Товары</li>";
+            echo "<li> / Archives</li>";
         }
         elseif ( is_search() ) {
  
