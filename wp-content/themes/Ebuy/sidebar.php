@@ -4,7 +4,7 @@
 	<h3 class="sidetitl "> Контакты </h3>
 	Наш адрес: блаблабла
 	<br/>
-	<h4>Время работы: 10:00 - 19:00, Пн-Пт</h4>
+	<h3>Время работы: 10:00 - 19:00, Пн-Пт</h3>
 	<?php 
 		$my_query = new WP_Query('orderby=comment_count&showposts=5');
 		while ($my_query->have_posts()) : $my_query->the_post();$do_not_duplicate = $post->ID;
